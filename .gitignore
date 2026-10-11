@@ -1,0 +1,20 @@
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Dependências e build, caso venham a existir
+/vendor/
+/node_modules/
+
+# Configuração local de banco — se um dia conexao.php virar arquivo de ambiente,
+# é aqui que ele deve ser ignorado.
+.env
+*.local.php
